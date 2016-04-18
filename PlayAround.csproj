@@ -45,6 +45,7 @@
     <Compile Include="IQ\IQ_001.cs" />
     <Compile Include="IQ\IQ_002.cs" />
     <Compile Include="IQ\IQ_003.cs" />
+    <Compile Include="IQ\IQ_007.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
