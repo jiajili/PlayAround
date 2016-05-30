@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\ListNode.cs" />
+    <Compile Include="Common\TreeNode.cs" />
     <Compile Include="IQ\IQ_001.cs" />
     <Compile Include="IQ\IQ_002.cs" />
     <Compile Include="IQ\IQ_003.cs" />
@@ -49,6 +50,7 @@
     <Compile Include="IQ\IQ_007.cs" />
     <Compile Include="IQ\IQ_008.cs" />
     <Compile Include="IQ\IQ_009.cs" />
+    <Compile Include="IQ\IQ_105.cs" />
     <Compile Include="IQ\IQ_283.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
