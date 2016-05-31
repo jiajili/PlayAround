@@ -51,7 +51,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="IQ\IQ105_UnitTest.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
