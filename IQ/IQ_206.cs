@@ -29,7 +29,21 @@ namespace PlayAround.IQ
                 prev = current;
                 current = next;
             }
-            return null;
+            return prev;
+        }
+
+        public ListNode ReverseListRecusive(ListNode head)
+        {
+            return ReverseRecusive(head, null);
+        }
+
+        private ListNode ReverseRecusive(ListNode current, ListNode prev)
+        {
+            if (current == null) return null;
+            ListNode next = current.next;
+            current.next = prev;
+
+            return next == null? current : ReverseRecusive(next, current);
         }
     }
 }
