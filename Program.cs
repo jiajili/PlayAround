@@ -11,13 +11,15 @@ namespace PlayAround
     {
         static void Main(string[] args)
         {
-            IQ_127 test = new IQ_127();
-            ISet<string> set = new HashSet<string>();
-            set.Add("hot");
-            set.Add("dog");
+            IQ_209 test = new IQ_209();
 
-            int k = test.LadderLength("hot", "dog", set);
-            Console.WriteLine(k);
+            int[] arr = {
+                1,2,3,4,5
+            };
+            
+            int result = test.MinSubArrayLen(11, arr);
+
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }
