@@ -24,7 +24,7 @@ namespace PlayAround.IQ
             {
                 for (int j = 0; j < n2.Length; j++)
                 {
-                    d[i + j] = (n1[i] - '0') * (n2[j] - '0');
+                    d[i + j] += (n1[i] - '0') * (n2[j] - '0');
                 }
             }
 
