@@ -11,13 +11,10 @@ namespace PlayAround
     {
         static void Main(string[] args)
         {
-            IQ_209 test = new IQ_209();
+            IQ_202 test = new IQ_202();
 
-            int[] arr = {
-                1,2,3,4,5
-            };
-            
-            int result = test.MinSubArrayLen(11, arr);
+          
+            var result = test.IsHappy(19);
 
             Console.WriteLine(result);
             Console.ReadKey();
