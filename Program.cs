@@ -11,10 +11,10 @@ namespace PlayAround
     {
         static void Main(string[] args)
         {
-            IQ_202 test = new IQ_202();
+            IQ_344 test = new IQ_344();
 
-          
-            var result = test.IsHappy(19);
+
+            var result = test.ReverseString("abcef");
 
             Console.WriteLine(result);
             Console.ReadKey();
