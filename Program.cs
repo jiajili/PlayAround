@@ -11,12 +11,17 @@ namespace PlayAround
     {
         static void Main(string[] args)
         {
-            IQ_151 test = new IQ_151();
+            IQ_211 test = new IQ_211();
+
+            test.AddWord("aa");
+            test.AddWord("ab");
+            test.AddWord("ca");
+            test.AddWord("da");
+            test.AddWord("ef");
+            test.AddWord("lijiaji");
 
 
-            var result = test.ReverseWords(" ");
-
-            Console.WriteLine(result);
+            Console.WriteLine(test.Search("li.ia.i"));
             Console.ReadKey();
         }
     }
