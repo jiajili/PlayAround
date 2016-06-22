@@ -14,7 +14,7 @@ namespace PlayAround.IQ
             if (head == null || head.next == null) return head;
 
             ListNode prev = head;
-            ListNode current = head.next;
+            ListNode current = prev.next;
 
             while (current != null)
             {
