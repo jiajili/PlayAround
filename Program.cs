@@ -11,9 +11,9 @@ namespace PlayAround
     {
         static void Main(string[] args)
         {
-            IQ_067 test = new IQ_067();
-
-           var result =  test.AddBinary("1010", "1011");
+            IQ_136 test = new IQ_136();
+            int[] arr = { 1, 1, 2, 2, 3 };
+           var result =  test.SingleNumber(arr);
 
 
             Console.WriteLine(result);
