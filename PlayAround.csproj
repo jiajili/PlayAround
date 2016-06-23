@@ -80,6 +80,7 @@
     <Compile Include="IQ\IQ_234.cs" />
     <Compile Include="IQ\IQ_237.cs" />
     <Compile Include="IQ\IQ_238.cs" />
+    <Compile Include="IQ\IQ_242.cs" />
     <Compile Include="IQ\IQ_283.cs" />
     <Compile Include="IQ\IQ_344.cs" />
     <Compile Include="IQ\IQ_350.cs" />
