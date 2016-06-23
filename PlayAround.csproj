@@ -52,6 +52,8 @@
     <Compile Include="IQ\IQ_008.cs" />
     <Compile Include="IQ\IQ_009.cs" />
     <Compile Include="IQ\IQ_015.cs" />
+    <Compile Include="IQ\IQ_019.cs" />
+    <Compile Include="IQ\IQ_021.cs" />
     <Compile Include="IQ\IQ_043.cs" />
     <Compile Include="IQ\IQ_053.cs" />
     <Compile Include="IQ\IQ_066.cs" />
@@ -81,6 +83,8 @@
     <Compile Include="IQ\IQ_237.cs" />
     <Compile Include="IQ\IQ_238.cs" />
     <Compile Include="IQ\IQ_242.cs" />
+    <Compile Include="IQ\IQ_257.cs" />
+    <Compile Include="IQ\IQ_258.cs" />
     <Compile Include="IQ\IQ_283.cs" />
     <Compile Include="IQ\IQ_344.cs" />
     <Compile Include="IQ\IQ_350.cs" />
