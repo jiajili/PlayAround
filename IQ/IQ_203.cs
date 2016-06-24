@@ -29,6 +29,8 @@ namespace PlayAround.IQ
                     next = next.next;                
             }
 
+            current.next = null;
+
             return previous.next;
         }
     }
