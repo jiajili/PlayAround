@@ -75,6 +75,7 @@
     <Compile Include="IQ\IQ_171.cs" />
     <Compile Include="IQ\IQ_202.cs" />
     <Compile Include="IQ\IQ_203.cs" />
+    <Compile Include="IQ\IQ_204.cs" />
     <Compile Include="IQ\IQ_205.cs" />
     <Compile Include="IQ\IQ_206.cs" />
     <Compile Include="IQ\IQ_208.cs" />
